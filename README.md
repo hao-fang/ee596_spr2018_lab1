@@ -42,7 +42,7 @@
   ```
 * Upload the zip file to your Lambda Function.
 * If you want to change the Interaction Model, you can edit files under the folder `interactionModel` and paste them to the Developer Console.
-* Test your Alexa Skill using both the Service Simulator and study the request and response JSON objects.
+* Test your Alexa Skill using the Alexa Simulator in your Developer Console and study the JSON input and output objects.
 
 ## Task 3: (Optional) Deploy the AWS Lambda function using command-line
 
