@@ -8,8 +8,8 @@
 
 ## Task 1: Build a voice experience in 5 minutes
 * Follow the [Quick Start Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) to create a first Alexa Skill.
-* In Step 2.4, first click "Switch to old console" to access the interface in the tutorial. 
-* You are also welcome to try the beta console.
+* NOTE: The instruction uses the old Amazon Developer Console. Starting from March 27th, 2018, the old console is no longer available.
+* For step 2.4--2.14, please configure the skill using the new developer console.
 
 ## Task 2: Create AWS Lambda function from scratch
 * This time we will use the [Alexa Skills Kit SDK for Node.js](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
@@ -41,7 +41,8 @@
   $ zip -r ../lambdaFunc.zip *
   ```
 * Upload the zip file to your Lambda Function.
-* Test your Alexa Skill using both the Service Simulator and study the response JSON object. 
+* If you want to change the Interaction Model, you can edit files under the folder `interactionModel` and paste them to the Developer Console.
+* Test your Alexa Skill using both the Service Simulator and study the request and response JSON objects.
 
 ## Task 3: (Optional) Deploy the AWS Lambda function using command-line
 
@@ -72,3 +73,9 @@ aws-cli/1.11.53 Python/2.7.6 Linux/3.13.0-105-generic botocore/1.5.16
 ```
 $ ./sync.sh YOUR_LAMBDA_FUNC_NAME
 ```
+
+## Lab Report
+* Upload your `ee596_spr2018_lab1` repository for Task 2.
+* Study the JSON input and JSON output in Alexa Simulator in the Developer Console. Describe individual fields in these JSON objects.
+* Compare the different ways to create and deploy the Lambda function.
+* Discuss findings and issues.
