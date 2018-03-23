@@ -1,5 +1,7 @@
 # EE596 Lab 1 -- Build Alexa Skills with the Alexa Skill Kit
 
+Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fang.github.io/ee596_spr2018/)
+
 ## Task 1: Build a voice experience in 5 minutes
 * Follow the [Quick Start Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) to create a first Alexa Skill.
 * NOTE: The instruction uses the old Amazon Developer Console. Starting from March 27th, 2018, the old console is no longer available.
