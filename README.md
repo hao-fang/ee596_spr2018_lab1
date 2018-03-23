@@ -1,11 +1,5 @@
 # EE596 Lab 1 -- Build Alexa Skills with the Alexa Skill Kit
 
-## References
-* [Quick Start Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial)
-* [Alexa Skill Kit Docs](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html)
-* [Alexa Skill Kit SDK for NodeJs](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
-* [AWS Command Line Interface](https://aws.amazon.com/cli/)
-
 ## Task 1: Build a voice experience in 5 minutes
 * Follow the [Quick Start Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) to create a first Alexa Skill.
 * NOTE: The instruction uses the old Amazon Developer Console. Starting from March 27th, 2018, the old console is no longer available.
@@ -81,3 +75,11 @@ $ ./sync.sh YOUR_LAMBDA_FUNC_NAME
 * Study the JSON input and JSON output in Alexa Simulator in the Developer Console. Describe individual fields in these JSON objects.
 * Compare the different ways to create and deploy the Lambda function.
 * Discuss findings and issues.
+
+## References
+* [Quick Start Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial)
+* [Alexa Skill Kit Docs](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html)
+* [Alexa Skill Kit SDK for NodeJs](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
+* [AWS Command Line Interface](https://aws.amazon.com/cli/)
+* [AWS Command Line Interface Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+* [AWS Security Credentials](https://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html)
