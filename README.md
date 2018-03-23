@@ -69,6 +69,8 @@ $ aws --version
 aws-cli/1.11.53 Python/2.7.6 Linux/3.13.0-105-generic botocore/1.5.16
 ```
 * Setup your AWS credential `~/.aws/config`.
+  * [Manage Access Keys for your AWS Account](https://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html)
+  * [Configuration and Credential Files](https://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html)
 * Run sync.sh
 ```
 $ ./sync.sh YOUR_LAMBDA_FUNC_NAME
