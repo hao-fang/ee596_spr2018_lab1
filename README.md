@@ -25,7 +25,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   ```
   $ git clone https://github.com/hao-fang/ee596_spr2018_lab1.git
   ```
-  * Install Alexa SDK for Node.js, you will see a folder `node_modules` under the lambdaFunc folder
+  * Install Alexa SDK for Node.js. You will see a folder `node_modules` under the lambdaFunc folder. (You need to make sure [npm](https://www.npmjs.com/) is installed on your computer.
   ```
   $ cd lambdaFunc
   $ npm install --save alexa-sdk
