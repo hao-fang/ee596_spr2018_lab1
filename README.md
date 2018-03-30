@@ -23,7 +23,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
 * On your laptop
   * Clone the repository
   ```
-  $ git clone git@github.com:hao-fang/ee596_spr2018_lab1.git
+  $ git clone https://github.com/hao-fang/ee596_spr2018_lab1.git
   ```
   * Install Alexa SDK for Node.js, you will see a folder `node_modules` under the lambdaFunc folder
   ```
