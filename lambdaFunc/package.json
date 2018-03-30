@@ -1,0 +1,11 @@
+{
+  "name": "ee596_spr2018_lab1",
+  "version": "1.0.0",
+  "description": "UW EE596 (Spring2018) Lab 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
