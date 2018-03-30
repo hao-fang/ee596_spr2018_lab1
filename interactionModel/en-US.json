@@ -1,0 +1,115 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "lab one",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you"
+          ]
+        },
+        {
+          "name": "MyColorIsIntent",
+          "slots": [
+            {
+              "name": "Color",
+              "type": "LIST_OF_COLORS"
+            }
+          ],
+          "samples": [
+            "my favorite color is {Color}"
+          ]
+        },
+        {
+          "name": "WhatsMyColorIntent",
+          "slots": [],
+          "samples": [
+            "what's my favorite color",
+            "what is my favorite color",
+            "what's my color",
+            "what is my color",
+            "my color",
+            "my favorite color",
+            "get my color",
+            "get my favorite color",
+            "give me my favorite color",
+            "give me my color",
+            "what my color is",
+            "what my favorite color is",
+            "yes",
+            "yup",
+            "sure",
+            "yes please"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "LIST_OF_COLORS",
+          "values": [
+            {
+              "name": {
+                "value": "green"
+              }
+            },
+            {
+              "name": {
+                "value": "red"
+              }
+            },
+            {
+              "name": {
+                "value": "blue"
+              }
+            },
+            {
+              "name": {
+                "value": "orange"
+              }
+            },
+            {
+              "name": {
+                "value": "gold"
+              }
+            },
+            {
+              "name": {
+                "value": "silver"
+              }
+            },
+            {
+              "name": {
+                "value": "yellow"
+              }
+            },
+            {
+              "name": {
+                "value": "black"
+              }
+            },
+            {
+              "name": {
+                "value": "white"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

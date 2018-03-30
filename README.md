@@ -8,14 +8,21 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
 * For step 2.4--2.14, please configure the skill using the new developer console.
 
 ## Task 2: Create AWS Lambda function from scratch
+### Requirements:
+* [Node.js](https://nodejs.org/en/)
+* [NPM](https://www.npmjs.com/)
+
+### Steps:
 * This time we will use the [Alexa Skills Kit SDK for Node.js](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
+  * We will still use the same Alexa Skill you created for `Color Picker`.
 * Create another Alexa Lambda function. This time please choose "Author from scratch".
+  * Name: ee596_spr2018_lab1
   * Runtime: Nodejs 6.10 (default)
   * Role: you can use the previously created role, or you can create a new role as you did in Step 2.10 in the [Quick Start Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial)
   * Click "Next"
 * Configuration
   * Add triggers under the "Designer": choose "Alexa Skill Kit"
-  * Configure triggers: enter your skill ID (check "Skill Information" page in your Amazon Developer account) and click "Add"
+  * Configure triggers: enter your skill ID (check "End Point" page in your Amazon Developer account) and click "Add"
   * Click "Save" 
 * Go back to your Lambda dashboard and re-enter the Lambda function
   * You will see a "Function code" section, where you can directly edit your codes.
@@ -25,7 +32,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   ```
   $ git clone https://github.com/hao-fang/ee596_spr2018_lab1.git
   ```
-  * Install Alexa SDK for Node.js. You will see a folder `node_modules` under the lambdaFunc folder. (You need to make sure [npm](https://www.npmjs.com/) is installed on your computer.
+  * Install Alexa SDK for Node.js. You will see a folder `node_modules` under the lambdaFunc folder.
   ```
   $ cd lambdaFunc
   $ npm install --save alexa-sdk
@@ -37,6 +44,9 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   $ zip -r ../lambdaFunc.zip *
   ```
 * Upload the zip file to your Lambda Function.
+  * Look for ``Function code`` section. Use the drop-down menu ``Code entry type``.
+  * Choose ``Upload a ZIP file``.
+  * Click ``Save`` at the top-right corner.
 * If you want to change the Interaction Model, you can edit files under the folder `interactionModel` and paste them to the Developer Console.
 * Test your Alexa Skill using the Alexa Simulator in your Developer Console and study the JSON input and output objects.
 
