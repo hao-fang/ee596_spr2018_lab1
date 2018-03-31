@@ -17,7 +17,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   * Name: ee596_spr2018_lab1
   * Runtime: Nodejs 6.10 (default)
   * Role: you can use the previously created role, or you can create a new role as you did in Step 2.10 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
-  * Click "Next"
+  * Click "Create function"
 * Configuration
   * Add triggers under the "Designer": choose "Alexa Skill Kit"
   * Configure triggers: enter your skill ID (check "End Point" page in your Amazon Developer account) and click "Add"
