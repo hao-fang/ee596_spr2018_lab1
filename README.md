@@ -37,7 +37,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   $ cd lambdaFunc
   $ npm install --save alexa-sdk
   ```
-  * Edit the lambdaFunc/index.js file following the "Getting Started" section in [Alexa Skills Kit SDK for Node.js](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
+  * Edit the lambdaFunc/index.js file, replace the 'APP_ID' in line 8 with your Skill ID.
   * Zip the lambdaFunc folder
   ```
   $ cd lambdaFunc
@@ -47,8 +47,9 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   * Look for ``Function code`` section. Use the drop-down menu ``Code entry type``.
   * Choose ``Upload a ZIP file``.
   * Click ``Save`` at the top-right corner.
-* If you want to change the Interaction Model, you can edit files under the folder `interactionModel` and paste them to the Developer Console.
-* Test your Alexa Skill using the Alexa Simulator in your Developer Console and study the JSON input and output objects.
+* Change your Alexa Skill's Endpoint ARN to this new Lambda Function.
+	* See Step 1.13 and Step 2.21 in Task 1.
+* Repeat Step 3 in Task 1.
 
 ## Task 3: (Optional) Deploy the AWS Lambda function using command-line
 
@@ -81,6 +82,8 @@ aws-cli/1.11.53 Python/2.7.6 Linux/3.13.0-105-generic botocore/1.5.16
 ```
 $ ./sync.sh YOUR_LAMBDA_FUNC_NAME
 ```
+
+## Lab Checkoff
 
 ## Lab Report
 * Upload your `ee596_spr2018_lab1` repository for Task 2.
