@@ -2,10 +2,8 @@
 
 Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fang.github.io/ee596_spr2018/)
 
-## Task 1: Build a voice experience in 5 minutes
-* Follow the [Quick Start Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) to create a first Alexa Skill.
-* NOTE: The instruction uses the old Amazon Developer Console. Starting from March 27th, 2018, the old console is no longer available.
-* For step 2.4--2.14, please configure the skill using the new developer console.
+## Task 1: Build your first Alexa Skill
+* Please follow the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
 
 ## Task 2: Create AWS Lambda function from scratch
 ### Requirements:
@@ -84,15 +82,35 @@ $ ./sync.sh YOUR_LAMBDA_FUNC_NAME
 ```
 
 ## Lab Checkoff
+* Task 1:
+  * Illustrate the sample dialog of Step 3.3.
+  * In Step 3.4, what is the detected intent when you say `how are you`?
+  * Do you know when you are talking to your bot vs. Alexa?
+* Task 2:
+  * Show the configuration of your Alexa Skill Endpoint and the Lambda function `ee596_spr2018_lab1`.
+  * Repeat the sample dialog as you have done in Task 1.
+* Task 3 (Optional):
+  * Show the output of your sync.sh command.
 
 ## Lab Report
-* Upload your `ee596_spr2018_lab1` repository for Task 2.
-* Study the JSON input and JSON output in Alexa Simulator in the Developer Console. Describe individual fields in these JSON objects.
-* Compare the different ways to create and deploy the Lambda function.
-* Discuss findings and issues.
+* Please attach the JSON object of your Interaction Model definition. See Step
+  2.19 in Task 1. Describe individual fields in the JSON object.
+* Please attach the JSON input and output in Alexa Simulator in the Developer
+  Console. See Step 3.4 in Task 1. Describe individual fields in these JSON objects.
+* Find the functions in the Python codes (lambda_function.py) in Task 1 that
+  correspond the following handlers in NodeJS codes (index.js) in Task 2.
+    * NewSession
+    * LaunchRequest
+    * SessionEndedRequest
+    * MyColorIsIntent
+    * WhatsMyColorIntent
+    * AMAZON.HelpIntent
+    * AMAZON.CancelIntent
+    * AMAZON.StopIntent
+    * Unhandled
+* Discuss other findings and issues.
 
 ## References
-* [Quick Start Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial)
 * [Alexa Skill Kit Docs](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html)
 * [Alexa Skill Kit SDK for NodeJs](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
 * [AWS Command Line Interface](https://aws.amazon.com/cli/)
