@@ -22,7 +22,6 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   * Add triggers under the "Designer": choose "Alexa Skill Kit"
   * Configure triggers: enter your skill ID (check "End Point" page in your Amazon Developer account) and click "Add"
   * Click "Save" 
-* In the "Function code" section, you can directly edit your codes. We will upload a .ZIP file instead.
 * On your laptop
   * Clone the repository
   ```
@@ -40,7 +39,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   $ zip -r ../lambdaFunc.zip *
   ```
 * Upload the zip file to your Lambda Function.
-  * Go back to your Lambda function webpage, look for `Function code` section. (See Step 1.14 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf)).
+  * Go back to your Lambda function webpage. Go to the `Function code` section. (See Step 1.14 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf)).
   * Use the drop-down menu `Code entry type`.
   * Choose `Upload a ZIP file`.
   * Click `Save` at the top-right corner.
