@@ -5,7 +5,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
 ## Task 1: Build your first Alexa Skill
 * Please follow the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
 
-## Task 2: Create AWS Lambda function from scratch
+## Task 2: Create an AWS Lambda function from scratch
 ### Requirements:
 * [Node.js](https://nodejs.org/en/)
 * [NPM](https://www.npmjs.com/)
