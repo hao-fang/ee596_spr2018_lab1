@@ -16,7 +16,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
 * Create another Alexa Lambda function. This time please choose "Author from scratch".
   * Name: ee596_spr2018_lab1
   * Runtime: Nodejs 6.10 (default)
-  * Role: you can use the previously created role, or you can create a new role as you did in Step 2.10 in the [Quick Start Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial)
+  * Role: you can use the previously created role, or you can create a new role as you did in Step 2.10 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
   * Click "Next"
 * Configuration
   * Add triggers under the "Designer": choose "Alexa Skill Kit"
@@ -35,7 +35,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   $ cd lambdaFunc
   $ npm install --save alexa-sdk
   ```
-  * Edit the lambdaFunc/index.js file, replace the 'APP_ID' in line 8 with your Skill ID.
+  * Edit the lambdaFunc/index.js file, replace the 'APP_ID' in line 8 with your Skill ID. See Step 2.22 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
   * Zip the lambdaFunc folder
   ```
   $ cd lambdaFunc
@@ -46,13 +46,14 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   * Choose ``Upload a ZIP file``.
   * Click ``Save`` at the top-right corner.
 * Change your Alexa Skill's Endpoint ARN to this new Lambda Function.
-	* See Step 1.13 and Step 2.21 in Task 1.
-* Repeat Step 3 in Task 1.
+	* See Step 1.13 and Step 2.21 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
+* Repeat Step 3 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
+
 
 ## Task 3: (Optional) Deploy the AWS Lambda function using command-line
 
 ### Requirements:
-* Python
+* [Python](https://www.python.org/)
 * [virtualenv](https://virtualenv.pypa.io/en/stable/)
 
 ### Systems:
