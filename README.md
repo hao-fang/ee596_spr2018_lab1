@@ -22,8 +22,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   * Add triggers under the "Designer": choose "Alexa Skill Kit"
   * Configure triggers: enter your skill ID (check "End Point" page in your Amazon Developer account) and click "Add"
   * Click "Save" 
-* Go back to your Lambda dashboard and re-enter the Lambda function
-  * You will see a "Function code" section, where you can directly edit your codes.
+* You will see a "Function code" section, where you can directly edit your codes.
   * We will upload a .ZIP file instead.
 * On your laptop
   * Clone the repository
