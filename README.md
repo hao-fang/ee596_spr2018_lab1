@@ -35,16 +35,16 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   $ cd lambdaFunc
   $ npm install --save alexa-sdk
   ```
-  * Edit the lambdaFunc/index.js file, replace the 'APP_ID' in line 8 with your Skill ID. See Step 2.22 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
-  * Zip the lambdaFunc folder
+  * Edit the `lambdaFunc/index.js` file, replace the `APP_ID` in line 8 with your Skill ID. See Step 2.22 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
+  * Zip the `lambdaFunc` folder
   ```
   $ cd lambdaFunc
   $ zip -r ../lambdaFunc.zip *
   ```
 * Upload the zip file to your Lambda Function.
-  * Look for ``Function code`` section. Use the drop-down menu ``Code entry type``.
-  * Choose ``Upload a ZIP file``.
-  * Click ``Save`` at the top-right corner.
+  * Look for `Function code` section. Use the drop-down menu `Code entry type`.
+  * Choose `Upload a ZIP file`.
+  * Click `Save` at the top-right corner.
 * Change your Alexa Skill's Endpoint ARN to this new Lambda Function.
 	* See Step 1.13 and Step 2.21 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
 * Repeat Step 3 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
@@ -84,8 +84,8 @@ $ ./sync.sh YOUR_LAMBDA_FUNC_NAME
 
 ## Lab Checkoff
 * Task 1:
-  * Illustrate the sample dialog of Step 3.3.
-  * In Step 3.4, what is the detected intent when you say `how are you`?
+  * Illustrate the sample dialog of Step 3.3 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
+  * In Step 3.4 of in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf), what is the detected intent when you say `how are you`?
   * Do you know when you are talking to your bot vs. Alexa?
 * Task 2:
   * Show the configuration of your Alexa Skill Endpoint and the Lambda function `ee596_spr2018_lab1`.
@@ -95,11 +95,13 @@ $ ./sync.sh YOUR_LAMBDA_FUNC_NAME
 
 ## Lab Report
 * Please attach the JSON object of your Interaction Model definition. See Step
-  2.19 in Task 1. Describe individual fields in the JSON object.
+  2.19 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf). 
+  Describe individual fields in the JSON object.
 * Please attach the JSON input and output in Alexa Simulator in the Developer
-  Console. See Step 3.4 in Task 1. Describe individual fields in these JSON objects.
-* Find the functions in the Python codes (lambda_function.py) in Task 1 that
-  correspond the following handlers in NodeJS codes (index.js) in Task 2.
+  Console. See Step 3.4 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf).
+  Describe individual fields in these JSON objects.
+* Find the functions in the Python codes `lambda_function.py` in Task 1 that
+  correspond the following handlers in NodeJS codes `lambdaFunc/index.js` in Task 2.
     * NewSession
     * LaunchRequest
     * SessionEndedRequest
