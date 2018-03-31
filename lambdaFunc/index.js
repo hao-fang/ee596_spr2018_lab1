@@ -30,7 +30,7 @@ const handlers = {
     let cardTitle = "Welcome";
     let speechOutput = "Welcome to the Alexa Skills Kit sample. "
       + "Please tell me your favorite color by saying, "
-      + "my favorite color is red";
+      + "my favorite color is red.";
     let repromptText = "Please tell me your favorite color by saying, "
       + "my favorite color is red.";
 
@@ -97,7 +97,7 @@ const handlers = {
       this.response.speak(speechOutput)
         .cardRenderer(cardTitle, speechOutput);
     } else {
-      speechOutput = "I'm not sure what your favorite color is."
+      speechOutput = "I'm not sure what your favorite color is. "
         + "You can say, my favorite color is red.";
       this.response.speak(speechOutput)
         .listen(repromptText)
