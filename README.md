@@ -40,7 +40,8 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
   $ zip -r ../lambdaFunc.zip *
   ```
 * Upload the zip file to your Lambda Function.
-  * Look for `Function code` section. Use the drop-down menu `Code entry type`.
+  * Go back to your Lambda function webpage, look for `Function code` section. (See Step 1.14 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf)).
+  * Use the drop-down menu `Code entry type`.
   * Choose `Upload a ZIP file`.
   * Click `Save` at the top-right corner.
 * Change your Alexa Skill's Endpoint ARN to this new Lambda Function.
