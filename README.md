@@ -41,7 +41,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
 * Upload the zip file to your Lambda Function.
   * Go back to your Lambda function webpage. 
   * Go to the `Function code` section. (See Step 1.14 in the [walkthrough](https://hao-fang.github.io/ee596_spr2018/slides/lab_1-walkthrough.pdf)).
-		* If you cannot find `Function code` section, please click the center block `ee596_spr2018_lab1` in the section `Designer` first.
+  * If you cannot find `Function code` section, please click the center block `ee596_spr2018_lab1` in the section `Designer` first.
   * Use the drop-down menu `Code entry type`.
   * Choose `Upload a ZIP file`.
   * Click `Save` at the top-right corner.
